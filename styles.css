@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(10, 10, 10);
+    background-color: #0e0e0e;
 }
 
 p {
@@ -12,18 +12,24 @@ h2 {
     margin: 30px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    color: rgb(224, 224, 224);
+    color: #716844;
 }
 
 .card {
     width: 350px;
     margin: 20px;
-    box-shadow: 5px 10px 10px 5px black;
-    background-color: rgb(41, 41, 41);
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+    background-color: #191919;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.logo {
+    display: block;
+    margin: 50px auto;
+    max-width: 90%;
 }
