@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(10, 10, 10);
+}
+
+p {
+    margin: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(190, 190, 190);
+}
+
+h2 {
+    margin: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: rgb(224, 224, 224);
+}
+
+.card {
+    width: 350px;
+    margin: 20px;
+    box-shadow: 5px 10px 10px 5px black;
+    background-color: rgb(41, 41, 41);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
